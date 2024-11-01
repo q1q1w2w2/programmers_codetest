@@ -62,7 +62,7 @@ public class CreateStrangeChar {
 //            } else {
 //                answer.append(ss.toUpperCase());
 //            }
-            
+
             answer.append(cnt % 2 == 0 ? ss.toUpperCase() : ss.toLowerCase());
             cnt = ss.contains(" ") ? 0 : cnt + 1;
         }
